@@ -1,0 +1,98 @@
+﻿@model GerenciamentoDeFichasMedicas.Models.FichasMedicas
+
+@{
+    ViewData["Title"] = "Alterar Ficha Médica";
+    Layout = null;
+}
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/cadastroFichaMedica.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GerenciamentoDeFichasMedicas.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/estiloFichasEdit.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<div class="container">
+    <h1 class="mt-4">Alterar Ficha Médica</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit" enctype="multipart/form-data" onsubmit="return validateForm()">
+
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="FichaId" />
+                <input type="hidden" name="usuarioId" value="@ViewBag.usuarioId" />
+
+                <div class="form-group">
+                    <label asp-for="PacienteId" class="control-label">Paciente:</label>
+                    <select asp-for="PacienteId" class="form-control" asp-items="ViewBag.PacienteId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MedicoId" class="control-label">Médico:</label>
+                    <select asp-for="MedicoId" class="form-control" asp-items="ViewBag.MedicoId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NomeCompleto" class="control-label">Nome Completo:</label>
+                    <input asp-for="NomeCompleto" class="form-control" required />
+                    <span asp-validation-for="NomeCompleto" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Foto" class="control-label">Foto:</label>
+                    <input asp-for="Foto" type="file" class="form-control" accept="image/*" onchange="previewImage(this)" />
+                    <span asp-validation-for="Foto" class="text-danger"></span>
+
+                    @if (!string.IsNullOrEmpty(Model.Foto))
+                    {
+                        <div class="current-photo">
+                            <img src="~/uploads/@Model.Foto" alt="Foto" class="img-fluid database-img" />
+                        </div>
+                    }
+
+                    <div class="image-preview">
+                        <img id="preview" src="#" alt="Preview" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Cpf" class="control-label">CPF:</label>
+                    <input asp-for="Cpf" id="Cpf" class="form-control" maxlength="14" title="Digite um CPF válido" oninput="formatCpf(this)" required />
+                    <span asp-validation-for="Cpf" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Celular" class="control-label">Celular:</label>
+                    <input asp-for="Celular" id="Celular" class="form-control" maxlength="15" title="Digite um número de celular válido" required inputmode="numeric" oninput="formatPhoneNumber(this)" />
+                    <span asp-validation-for="Celular" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Endereco" class="control-label">Endereço:</label>
+                    <input asp-for="Endereco" class="form-control" />
+                    <span asp-validation-for="Endereco" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TextoRico" class="control-label">Observação:</label>
+                    <textarea asp-for="TextoRico" id="TextoRico" class="form-control"></textarea>
+                    <button type="button" class="btn btn-secondary mt-2" onclick="applyBold()"><strong>Negrito</strong></button>
+                    <button type="button" class="btn btn-secondary mt-2" onclick="applyItalic()"><em>Itálico</em></button>
+                    <span asp-validation-for="TextoRico" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Atualizar Ficha Médica" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Index" asp-route-medicoId="@ViewBag.usuarioId" asp-route-funcaoId="@ViewBag.FuncaoId" class="btn btn-secondary">Voltar Para Minhas Fichas</a>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

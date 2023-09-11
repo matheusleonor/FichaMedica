@@ -1,0 +1,76 @@
+﻿/* Estilos personalizados */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    background-color: #fff; /* Cor de fundo do container */
+    border - radius: 10px;
+    padding: 20px;
+    box - shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF; /* Cor do título principal */
+}
+
+/* Estilos para tabela */
+.table {
+    background-color: #fff; /* Cor de fundo da tabela */
+    color: #333; /* Cor do texto da tabela */
+}
+
+.table th {
+    background-color: #007BFF; /* Cor de fundo do cabeçalho da tabela */
+    color: #fff; /* Cor do texto do cabeçalho da tabela */
+}
+
+.table - striped tbody tr:nth - of - type(odd) {
+    background - color: #f0f0f0; /* Cor de fundo das linhas ímpares da tabela */
+}
+
+/* Estilos para botões */
+.btn - primary {
+    background - color: #007BFF; /* Cor de fundo do botão principal */
+    border - color: #007BFF;
+}
+
+.btn - primary:hover {
+    background-color: #0056b3; /* Cor de fundo do botão principal ao passar o mouse */
+    border - color: #0056b3;
+}
+
+.btn - warning {
+    background - color: #ffc107; /* Cor de fundo do botão de aviso */
+    border - color: #ffc107;
+}
+
+.btn - warning:hover {
+    background-color: #ffab00; /* Cor de fundo do botão de aviso ao passar o mouse */
+    border - color: #ffab00;
+}
+
+.btn - danger {
+    background - color: #dc3545; /* Cor de fundo do botão de perigo */
+    border - color: #dc3545;
+}
+
+.btn - danger:hover {
+    background-color: #c82333; /* Cor de fundo do botão de perigo ao passar o mouse */
+    border - color: #c82333;
+}
+
+.btn - info {
+    background - color: #17a2b8; /* Cor de fundo do botão de informação */
+    border - color: #17a2b8;
+}
+
+.btn - info:hover {
+    background-color: #138496; /* Cor de fundo do botão de informação ao passar o mouse */
+    border - color: #138496;
+}
+
+.celular-column {
+    width: 150px; /* Ajuste a largura conforme necessário */
+}

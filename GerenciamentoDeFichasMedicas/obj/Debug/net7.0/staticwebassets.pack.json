@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GerenciamentoDeFichasMedicas.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GerenciamentoDeFichasMedicas.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\cadastroFichaMedica.css",
+      "PackagePath": "staticwebassets\\css\\cadastroFichaMedica.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\estiloFichasCreate.css",
+      "PackagePath": "staticwebassets\\css\\estiloFichasCreate.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\estiloFichasDelete.css",
+      "PackagePath": "staticwebassets\\css\\estiloFichasDelete.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\estiloFichasDetails.css",
+      "PackagePath": "staticwebassets\\css\\estiloFichasDetails.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\estiloFichasEdit.css",
+      "PackagePath": "staticwebassets\\css\\estiloFichasEdit.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\estiloFichasIndex.css",
+      "PackagePath": "staticwebassets\\css\\estiloFichasIndex.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\ClinicaMedica.png",
+      "PackagePath": "staticwebassets\\images\\ClinicaMedica.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\ConsultaEspecializada.jpg",
+      "PackagePath": "staticwebassets\\images\\ConsultaEspecializada.jpg"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\CuidadosPreventivos.jpg",
+      "PackagePath": "staticwebassets\\images\\CuidadosPreventivos.jpg"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\EquipeMedica.jpg",
+      "PackagePath": "staticwebassets\\images\\EquipeMedica.jpg"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\ExamesAvancados.jpg",
+      "PackagePath": "staticwebassets\\images\\ExamesAvancados.jpg"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\images\\medicos-e1469476775218.png",
+      "PackagePath": "staticwebassets\\images\\medicos-e1469476775218.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\10ce66e2-445a-497c-aa36-a8fa9f527623_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\10ce66e2-445a-497c-aa36-a8fa9f527623_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\2b347ead-248d-43ed-9d95-ddcd0b201880_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\2b347ead-248d-43ed-9d95-ddcd0b201880_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\2e49f7c5-e6ea-487d-b6b1-8543319c0eec_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\2e49f7c5-e6ea-487d-b6b1-8543319c0eec_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\3e01ec86-d8d4-4b35-a89f-4dc434e4bfe0_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\3e01ec86-d8d4-4b35-a89f-4dc434e4bfe0_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\3f78316d-e972-4f4d-9dca-d2ad5de03270_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\3f78316d-e972-4f4d-9dca-d2ad5de03270_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\4c910f54-3a27-4e5a-a867-3db5cbed3737_Matheus&KaylanePerfil.png",
+      "PackagePath": "staticwebassets\\uploads\\4c910f54-3a27-4e5a-a867-3db5cbed3737_Matheus&KaylanePerfil.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\584e46cb-61b0-418c-963b-8e6ae726f67f_1604945723574.jpg",
+      "PackagePath": "staticwebassets\\uploads\\584e46cb-61b0-418c-963b-8e6ae726f67f_1604945723574.jpg"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\a4d617fd-480b-4a8f-921f-33dbd4f16406_Matheus&Kaylane.png",
+      "PackagePath": "staticwebassets\\uploads\\a4d617fd-480b-4a8f-921f-33dbd4f16406_Matheus&Kaylane.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\d61f537b-f473-46e0-bda2-1858a0655d55_imagem_2023-05-25_090105988-removebg-preview.png",
+      "PackagePath": "staticwebassets\\uploads\\d61f537b-f473-46e0-bda2-1858a0655d55_imagem_2023-05-25_090105988-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\dffe4a11-c375-4d76-8378-2011b69c1853_20201229_213426.png",
+      "PackagePath": "staticwebassets\\uploads\\dffe4a11-c375-4d76-8378-2011b69c1853_20201229_213426.png"
+    },
+    {
+      "Id": "D:\\Projetos Visual Studio 2022\\GerenciamentoFichasMedicas\\GerenciamentoDeFichasMedicas\\wwwroot\\uploads\\e6c47363-febf-4d8a-a37e-537c1bfc4849_491cafdb-4649-4b0d-96db-ad64d49eaf2e.png",
+      "PackagePath": "staticwebassets\\uploads\\e6c47363-febf-4d8a-a37e-537c1bfc4849_491cafdb-4649-4b0d-96db-ad64d49eaf2e.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GerenciamentoDeFichasMedicas.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GerenciamentoDeFichasMedicas.props",
+      "PackagePath": "build\\GerenciamentoDeFichasMedicas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GerenciamentoDeFichasMedicas.props",
+      "PackagePath": "buildMultiTargeting\\GerenciamentoDeFichasMedicas.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GerenciamentoDeFichasMedicas.props",
+      "PackagePath": "buildTransitive\\GerenciamentoDeFichasMedicas.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

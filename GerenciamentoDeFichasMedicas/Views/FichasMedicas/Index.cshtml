@@ -1,0 +1,79 @@
+﻿@model List<FichasMedicas>
+@{
+    Layout = null;
+}
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/cadastroFichaMedica.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GerenciamentoDeFichasMedicas.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/estiloFichasIndex.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<div class="container">
+    <h1 class="mt-4">Lista das Fichas Médicas</h1>
+
+    @if (ViewBag.FuncaoId == 2)
+    {
+        <p>
+            <a asp-action="Create" asp-route-medicoId="@ViewBag.MedicoId" class="btn btn-primary">Cadastrar Nova Ficha</a>
+        </p>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Médico</th>
+                <th>Paciente</th>
+                <th>Nome Completo</th>
+                <th>Foto</th>
+                <th>CPF</th>
+                <th>Celular</th>
+                <th>Endereço</th>
+                <th>Observação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ficha in Model)
+            {
+                <tr>
+                    <td>@ficha.Medico?.NomeUsuario</td>
+                    <td>@ficha.Paciente?.NomeUsuario</td>
+                    <td>@ficha.NomeCompleto</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(ficha.Foto))
+                        {
+                            <img src="~/uploads/@ficha.Foto" alt="Foto" class="img-fluid" style="max-height: 100px;" />
+                        }
+                        else
+                        {
+                            <span>Sem foto</span>
+                        }
+                    </td>
+                    <td>@ficha.Cpf</td>
+                    <td class="celular-column">@ficha.Celular</td>
+                    <td>@ficha.Endereco</td>
+                    <td class="texto-rico">@Html.Raw(ficha.TextoRico)</td>
+                    <td>
+                        @if (ViewBag.FuncaoId == 2)
+                        {
+                            <a asp-action="Edit" asp-route-id="@ficha.FichaId" asp-route-medicoId="@ViewBag.MedicoId" class="btn btn-warning">Editar</a>
+                            <a asp-action="Delete" asp-route-id="@ficha.FichaId" asp-route-medicoId="@ViewBag.MedicoId" class="btn btn-danger">Remover</a>
+                        }
+                        <a asp-action="Details" asp-route-id="@ficha.FichaId"
+                           asp-route-pacienteId="@ViewBag.PacienteId"
+                           asp-route-medicoId="@ViewBag.MedicoId"
+                           asp-route-funcaoId="@ViewBag.FuncaoId" class="btn btn-info">Visualizar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Sair</a>
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>

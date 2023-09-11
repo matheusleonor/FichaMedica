@@ -1,0 +1,135 @@
+/* Definição de cores */
+:root {
+    --primary-color: #258cfb;
+    --secondary-color: #6c757d;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+.hero-banner {
+    position: relative;
+    background-image: url('../images/ClinicaMedica.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Estilo da seção "Sobre Nós" */
+.about-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.about-img {
+    max-width: 100%;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+}
+
+/* Estilo da seção "Nossos Serviços" */
+.services-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.service-item {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+    .service-item:hover {
+        transform: translateY(-10px);
+    }
+
+.service-img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1rem;
+}
+
+/* Estilo do botão */
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #1366d1;
+    }
+
+/* Responsividade */
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    .section-description {
+        font-size: 1.3rem;
+    }
+
+    /* Estilização dos modais */
+    .modal-body {
+        padding: 20px;
+    }
+
+    .modal-footer {
+        justify-content: space-between;
+    }
+}
+
+.image-preview {
+    display: flex;
+    align-items: center;
+}
+
+#preview {
+    width: 1in;
+    height: 1in;
+    display: none;
+}

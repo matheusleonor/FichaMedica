@@ -1,0 +1,95 @@
+﻿@model GerenciamentoDeFichasMedicas.Models.FichasMedicas
+
+@{
+    ViewData["Title"] = "Remover Ficha Médica";
+    Layout = null;
+}
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/cadastroFichaMedica.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GerenciamentoDeFichasMedicas.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/estiloFichasDelete.css" asp-append-version="true" />
+    <title>@ViewData["Title"]</title>
+</head>
+<div class="container">
+    <h1 class="mt-4">Remover Ficha Médica</h1>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-2">
+                   Nome Completo:
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.NomeCompleto)
+                </dd>
+                <dt class="col-sm-2">
+                    Foto: 
+                </dt>
+                <dd class="col-sm-10">
+                    @if (!string.IsNullOrEmpty(Model.Foto))
+                    {
+                        <img src="~/uploads/@Model.Foto" alt="Foto" class="img-fluid database-img" />
+                    }
+                    else
+                    {
+                        <span>Sem foto</span>
+                    }
+                </dd>
+                <dt class="col-sm-2">
+                    CPF: 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Cpf)
+                </dd>
+                <dt class="col-sm-2">
+                    Celular: 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Celular)
+                </dd>
+                <dt class="col-sm-2">
+                    Endereço: 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Endereco)
+                </dd>
+                <dt class="col-sm-2">
+                    Observação:
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.Raw(Model.TextoRico)
+                </dd>
+                <dt class="col-sm-2">
+                    Médico: 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Medico.NomeUsuario)
+                </dd>
+                <dt class="col-sm-2">
+                    Paciente: 
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Paciente.NomeUsuario)
+                </dd>
+            </dl>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="FichaId" />
+                <input type="submit" value="Excluir" class="btn btn-danger" asp-route-medicoId="@ViewBag.MedicoId" />
+                <a asp-action="Index" asp-route-medicoId="@ViewBag.MedicoId" asp-route-funcaoId="@ViewBag.FuncaoId" class="btn btn-secondary">Voltar Para Minhas Fichas</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,55 @@
+﻿/* Estilos personalizados */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF; /* Cor do título principal */
+}
+
+/* Estilos para formulário */
+.form-group label {
+    font-weight: bold;
+    color: #333; /* Cor dos rótulos */
+}
+
+.btn-primary {
+    background-color: #007BFF; /* Cor de fundo do botão de envio */
+    border-color: #007BFF;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo do botão de envio ao passar o mouse */
+    border-color: #0056b3;
+}
+
+/* Estilos para imagem de pré-visualização */
+.image-preview {
+    display: none;
+    margin-top: 10px;
+}
+
+.image-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para botões de formatação de texto */
+.btn-secondary {
+    background-color: #6c757d; /* Cor de fundo dos botões de formatação de texto */
+    color: #fff; /* Cor do texto dos botões de formatação de texto */
+    margin-right: 5px;
+}
+
+/* Estilos para link de voltar */
+.btn-secondary:hover {
+    background-color: #5a6268; /* Cor de fundo do botão de formatação de texto ao passar o mouse */
+}

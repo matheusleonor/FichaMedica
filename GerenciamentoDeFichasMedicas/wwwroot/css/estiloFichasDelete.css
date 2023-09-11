@@ -1,0 +1,51 @@
+﻿/* Estilos personalizados */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #dc3545; /* Cor do título principal */
+}
+
+/* Estilos para detalhes */
+.row {
+    margin-bottom: 20px;
+}
+
+.col-sm-2 {
+    font-weight: bold;
+    color: #333; /* Cor do rótulo de detalhes */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para botões */
+.btn-danger {
+    background-color: #dc3545; /* Cor de fundo do botão de remoção */
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Cor de fundo do botão de remoção ao passar o mouse */
+    border-color: #c82333;
+}
+
+/* Estilos para links */
+a {
+    color: #007BFF; /* Cor do link */
+}
+
+a:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse */
+}
