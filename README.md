@@ -63,3 +63,7 @@ INSERT INTO Funcoes (NomeFuncao) VALUES ('Paciente');
 
 -- Inserir Função Médico
 INSERT INTO Funcoes (NomeFuncao) VALUES ('Médico');
+
+## MER
+
+![image](https://github.com/matheusleonor/FichaMedica/assets/37985264/fcd713e5-e4c4-4157-a204-07d663f7d185)
