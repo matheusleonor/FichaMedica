@@ -3,7 +3,6 @@
 Este projeto é um sistema de gerenciamento de fichas médicas desenvolvido em ASP.NET Core, destinado a clínicas médicas e profissionais de saúde. Ele permite que os médicos e administradores criem, visualizem, editem e excluam fichas médicas de pacientes.
 
 # Instruções de Uso
-- Entre na branch Master
 - Clone o projeto em sua máquina local.
 - Abra o projeto em um ambiente de desenvolvimento compatível (Visual Studio, Visual Studio Code, etc.).
 - Configure a conexão com o banco de dados no arquivo appsettings.json.
